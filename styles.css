@@ -1,25 +1,51 @@
+* {
+    margin: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+}
 main {
     max-width: 840px;
 }
 
 aside {
     margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.74); /* 1 */
-    padding: 0;
-    background-color: #1c1c1c; /* 2 */
-    color: #9190bb;
+    width: 30em;
     text-align: center;
+}
+aside h2 {
+    position: absolute;
+    top: 200px;
+    left: 225px;
 }
 main img {
     width: 150px;
     height: auto;
 }
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 footer {
     margin-top: 1em;
     border-top: 1px solid #1c1c1c;
     text-align: center;
+}
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.74);
+    padding: 2rem;
+    background-color: #1c1c1c; /* 2 */
+    color: #9190bb;
+}
+.box2 {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.74);
+    padding: 1rem;
+    background-color: #1c1c1c; /* 2 */
+    color: #9190bb;
+}
+.float-image {
+    float: right;
+    margin-left: 1rem;
 }
