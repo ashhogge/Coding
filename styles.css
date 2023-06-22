@@ -35,14 +35,14 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.74);
     padding: 2rem;
-    background-color: #1c1c1c; /* 2 */
-    color: #9190bb;
+    background-color: #e7e7e7; /* 2 */
+    color: #484761;
 }
 .box2 {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.74);
     padding: 1rem;
-    background-color: #1c1c1c; /* 2 */
+    background-color: #e7e7e7; /* 2 */
     color: #9190bb;
 }
 .float-image {
