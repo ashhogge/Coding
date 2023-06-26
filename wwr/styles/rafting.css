@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+    margin: 5px;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+body {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+
+:root {
+    --primary-color: #778DA9;
+    --secondary-color: #778DA9;
+    --accent1-color: #0D1B2A;
+    --accent2-color: #4D6DA8;
+
+    --heading-font: "lato", serif;
+    --paragraph-font: "lato", serif;
+
+    --nav-background-color: #0D1B2A;
+    --nav-link-color: #89A1BE;
+    --nav-hover-link-color: #4D6DA8;
+    --nav-hover-background-color: #E0E1DD;
+}
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+article img {
+    float: right;
+}
+a img {
+    border: none; 
+    text-decoration: none; 
+  }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }

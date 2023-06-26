@@ -1,6 +1,7 @@
 """
 Ashton Hogge
 
+Comment: Only one outcome from all the choices is what I would consider the correct outcome. All others lead to nothing.
 """
 
 print("You are traveling through the forest when you hear a yell in the forest. Do you INVESTIGATE or LEAVE?")
