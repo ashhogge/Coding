@@ -4,14 +4,13 @@
     margin: 5px;
     padding: 1px;
     box-sizing: border-box;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
-    max-width: 800px; 
-    margin: 0 auto; 
-  }
-  
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 :root {
     --primary-color: #778DA9;
@@ -19,33 +18,48 @@ body {
     --accent1-color: #0D1B2A;
     --accent2-color: #4D6DA8;
 
-    --heading-font: "lato", serif;
-    --paragraph-font: "lato", serif;
+    --heading-font: 'Lato', sans-serif;
+    --paragraph-font: 'Lato', sans-serif;
 
     --nav-background-color: #0D1B2A;
     --nav-link-color: #89A1BE;
     --nav-hover-link-color: #4D6DA8;
     --nav-hover-background-color: #E0E1DD;
 }
-h1, h2, h3, h4, div{
+
+h1, h2, h3, h4, div {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    position: absolute;
 }
-h1 {
+
+h2 {
+    left: 1000px;
+}
+
+h1, article img{
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 0;
+    left: 0;
 }
-article img {
-    float: right;
-}
+
 a img {
-    border: none; 
-    text-decoration: none; 
-  }
-  .hero img {
+    border: none;
+    text-decoration: none;
+}
+
+.hero img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
+
+.hero div {
+    position: relative;
+}
+
+/* .hero h1,
+article {
+    position: absolute;
+    bottom: 100px;
+} */
+/*  this pops the image out and makes the website look bad. Wondering what I should change here */
