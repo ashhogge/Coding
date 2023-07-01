@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
 }
 
+/* colors and fonts */
 :root {
     --primary-color: #778DA9;
     --secondary-color: #778DA9;
@@ -27,26 +28,42 @@ body {
     --nav-hover-background-color: #E0E1DD;
 }
 
-h1, h2, h3, h4, div {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
-h2 {
-    left: 1000px;
+header img {
+    max-width: 100px;
 }
 
-h1, article img{
-    position: relative;
-    top: 0;
-    left: 0;
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    padding: 10px;
 }
 
-a img {
-    border: none;
+nav a {
+    color: var(--nav-link-color);
     text-decoration: none;
 }
 
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav a img {
+    max-width: 50px;
+}
+
+/* hero section */
 .hero img {
     display: block;
     width: 100%;
@@ -57,9 +74,51 @@ a img {
     position: relative;
 }
 
-/* .hero h1,
-article {
-    position: absolute;
-    bottom: 100px;
-} */
-/*  this pops the image out and makes the website look bad. Wondering what I should change here */
+article img {
+    max-width: 400px;
+}
+
+/* main content */
+h1, h2, h3, h4, div {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    left: 100px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    padding: 10px;
+}
+
+footer p {
+    color: var(--nav-link-color);
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+section img {
+    flex: 1;
+    max-width: 150px;
+    max-height: 170px;
+    margin-right: 5px;
+    align-self: center;
+}
+
