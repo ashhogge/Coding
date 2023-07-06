@@ -1,4 +1,9 @@
-value = 20
-while value < 20:
-   value = value + 1
-print(value)
+largest = 0
+
+for value in my_list:
+
+    if value > largest:
+
+        largest = value
+
+print(f"The largest is {largest}")
