@@ -12,7 +12,6 @@ body {
     margin: 0 auto;
 }
 
-/* colors and fonts */
 :root {
     --primary-color: #778DA9;
     --secondary-color: #778DA9;
@@ -28,7 +27,6 @@ body {
     --nav-hover-background-color: #E0E1DD;
 }
 
-/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -40,7 +38,6 @@ header img {
     max-width: 100px;
 }
 
-/* navigation */
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,7 +60,6 @@ nav a img {
     max-width: 50px;
 }
 
-/* hero section */
 .hero img {
     display: block;
     width: 100%;
@@ -78,7 +74,6 @@ article img {
     max-width: 400px;
 }
 
-/* main content */
 h1, h2, h3, h4, div {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -88,7 +83,6 @@ h2 {
     left: 100px;
 }
 
-/* footer */
 footer {
     display: flex;
     justify-content: flex-start;
@@ -122,3 +116,51 @@ section img {
     align-self: center;
 }
 
+.ninja_spacing div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.ninja_spacing h2 {
+    margin-top: 10px; 
+}
+
+.ninja_spacing img {
+    width: 200px; 
+    height: auto; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+form h2 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form label {
+    color: var(--secondary-color);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
