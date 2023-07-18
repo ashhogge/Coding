@@ -1,9 +1,8 @@
-largest = 0
+def display_numbers(x, y):
+    return 10
 
-for value in my_list:
+x = 3
+y = 4
+x = display_numbers(x, y)
 
-    if value > largest:
-
-        largest = value
-
-print(f"The largest is {largest}")
+print(x)

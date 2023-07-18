@@ -164,3 +164,7 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.box {
+    border: 2px #4D6DA8;
+}
