@@ -166,5 +166,11 @@ form input[type="submit"] {
 }
 
 .fix img {
-    max-width: 500px;
+    max-width: 475px;
+    max-height: auto;
+}
+
+.home_pic img {
+    max-width: 600px;
+    margin-left: 85px;
 }
