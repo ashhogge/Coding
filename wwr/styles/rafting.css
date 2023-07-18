@@ -167,7 +167,7 @@ form input[type="submit"] {
 
 .fix img {
     max-width: 475px;
-    max-height: auto;
+    max-height: 300;
 }
 
 .home_pic img {
