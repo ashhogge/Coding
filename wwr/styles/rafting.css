@@ -164,3 +164,7 @@ form input[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.fix img {
+    max-width: 500px;
+}
