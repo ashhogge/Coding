@@ -110,8 +110,8 @@ section h2 {
 
 section img {
     flex: 1;
-    max-width: 150px;
-    max-height: 170px;
+    max-width: 650px;
+    max-height: auto;
     margin-right: 5px;
     align-self: center;
 }
@@ -163,8 +163,4 @@ form input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.box {
-    border: 2px #4D6DA8;
 }
