@@ -111,7 +111,7 @@ section h2 {
 section img {
     flex: 1;
     max-width: 650px;
-    max-height: auto;
+    max-height: 300px;
     margin-right: 5px;
     align-self: center;
 }
